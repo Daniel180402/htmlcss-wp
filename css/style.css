@@ -75,6 +75,14 @@ main{
     height: 200px;
 }
 
+.img-side-left:hover, .img-side-right:hover, .img-main-middle:hover{
+    border: 2px solid red;
+}
+
+.img-side-left:active, .img-side-right:active, .img-main-middle:active{
+    border: 2px solid yellow;
+}
+
 .img-side-right{
     background-image: url(../img/img-3.jpg);
     filter: brightness(80%);
@@ -127,13 +135,22 @@ main{
 
 li{
     display: inline;
-    padding-right: 10px;
+    margin-right: 10px;
     font-size: 1.1em;
     color: #adadad;
+    padding: 10px;
 }
 
 ul{
     margin: 20px 0;
+}
+
+li:hover{
+    background-color: lightgrey;
+}
+
+li:active{
+    background-color: black;
 }
 
 #main-top-title{
