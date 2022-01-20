@@ -35,9 +35,11 @@ main{
 .content{
     height: 500px;
     background-image: url(../img/banner.jpg);
+    filter: brightness(80%);
     background-size: 80%;
     background-position: center;
     border-radius: 10px;
+    position: relative;
 }
 
 .container-main{
@@ -149,4 +151,19 @@ ul{
     color: red;
     font-size: 2em;
     vertical-align: middle;
+}
+
+#content-text-title{
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 500px;
+    left: 220px;
+}
+
+#content-text-description{
+    color: white;
+    position: absolute;
+    top: 580px;
+    left: 220px;
 }
